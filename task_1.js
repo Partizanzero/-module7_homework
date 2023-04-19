@@ -9,7 +9,7 @@ user.name = "Lena";
 user.surname = "Ivanova";
 user.city = "Moscow";
 
-/* Задание 1 */
+/* Task 1 */
 function getOwnProperties(obj) {
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
@@ -21,7 +21,7 @@ function getOwnProperties(obj) {
 getOwnProperties(user);
 
 
-/* Задание 2 */
+/* Task 2 */
 function isProperties(prop, obj) {
     return prop in obj;
 }
@@ -29,7 +29,7 @@ console.log(isProperties('surname', user));
 
 
 
-/* Задание 3 */
+/* Task 3 */
 function createObjNoPrototype() {
     const obj = Object.create(null);
     return obj;
