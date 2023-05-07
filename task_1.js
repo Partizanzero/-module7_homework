@@ -1,5 +1,3 @@
-
-
 const ownCity = {
     ownCity: "Samara"
 }
@@ -21,18 +19,6 @@ function getOwnProperties(obj) {
 getOwnProperties(user);
 
 
-/* Task 2 */
-function isProperties(prop, obj) {
-    return prop in obj;
-}
-console.log(isProperties('surname', user));
 
 
 
-/* Task 3 */
-function createObjNoPrototype() {
-    const obj = Object.create(null);
-    return obj;
-}
-
-console.log(createObjNoPrototype());
